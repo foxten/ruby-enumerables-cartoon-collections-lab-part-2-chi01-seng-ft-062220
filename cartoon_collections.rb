@@ -26,4 +26,3 @@ def find_valid_calls(array)
   element
 end
 end
-end
