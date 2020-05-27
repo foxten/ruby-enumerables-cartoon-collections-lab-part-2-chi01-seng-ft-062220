@@ -24,4 +24,5 @@ def find_valid_calls(array)
   array.any? do |element|
     element == valid_calls[i]
  end
+ valid_calls[i]
 end
