@@ -24,6 +24,5 @@ def find_valid_calls(array)
     element
   end
   array.find do |element|
-    element
   end
 end
