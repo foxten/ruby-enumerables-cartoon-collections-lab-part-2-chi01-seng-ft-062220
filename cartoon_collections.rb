@@ -25,4 +25,4 @@ def find_valid_calls(array)
 end
 valid_calls.include? element
 end
-end
+
