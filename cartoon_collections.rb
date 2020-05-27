@@ -21,8 +21,7 @@ def find_valid_calls(array)
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
   array.find do |element|
-    valid_calls.include? do |element|
-    element
+    valid_calls
     end
- end
+ 
 end
