@@ -23,5 +23,4 @@ def find_valid_calls(array)
   array.any? do |element|
     element
  end
- element.to_s
 end
