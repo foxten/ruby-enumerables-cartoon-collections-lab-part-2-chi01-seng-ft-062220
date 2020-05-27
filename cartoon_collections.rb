@@ -22,7 +22,7 @@ def find_valid_calls(array)
   # Return the first valid call found, or return nil if no valid calls are found
   array.find do |element|
         element
+  valid_calls.include? element
 end
-valid_calls.include? element
 end
 
